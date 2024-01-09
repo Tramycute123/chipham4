@@ -1,0 +1,247 @@
+@charset "utf-8";
+/* CSS Document */
+header {
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  font-size: 16px;
+  color: #666666
+}
+.img200 {
+  width: 25%;
+  heigh: auto;
+  margin-left: 180px
+}
+.logo {
+  line-height: 60px;
+  padding-top: 8px
+}
+.menu ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style: none
+}
+.menu {
+  padding-top: 20px;
+  ;
+  font-size: 16px;
+  margin-right: 70px
+}
+.menu ul li a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #7E7E7E;
+  border-radius: 8px
+}
+.menu ul li a:hover {
+  background-color: rgba(254, 253, 11, 0.9);
+  color: white
+}
+.col-1 {
+ display: flex
+}
+.col-1 a{
+	margin-left: 5px
+}
+.icon {
+  margin: 8px;
+}
+#slider .owl-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 45%;
+}
+#slider .owl-dots .owl-dot span {
+  width: 12px;
+  height: 12px;
+}
+#slider .owl-nav {
+  position: absolute;
+  left: 0px;
+  top: 40%;
+  width: 100%;
+}
+#slider .owl-nav [class*='owl-'] {
+  font-size: 60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+#slider .owl-nav .owl-next {
+  position: absolute;
+  right: 5%;
+}
+#slider .owl-nav .owl-prev {
+  position: absolute;
+  left: 5%;
+}
+#slider .owl-nav [class*='owl-']:hover {
+  background: none;
+  border: none;
+  color: #0E73FF;
+  text-decoration: none;
+}
+main {
+  width: 100%;
+  min-height: 500px
+}
+.pt-30 {
+  padding-top: 100px;
+}
+.gach-chan {
+  border-bottom: 3px solid; color: darkred;
+  text-decoration: none;
+}
+.text-do {
+  color: darkred
+}
+.vien {
+  border: 1px solid rgba(146, 11, 13, 1.00);
+  padding: 15px;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden
+}
+.icon1 {
+  position: absolute;
+  width: 80%;
+  height: 40px;
+  left: 10%;
+  top: -15%;
+  display: flex;
+  justify-content: space-around;
+  transition: all 1s
+}
+.icon1 a {
+  height: 40px;
+  width: 40px;
+  background-color: rgba(238, 20, 24, 1.00);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white
+}
+.icon1 a:hover {
+  background-color: white;
+  color: darkred
+}
+.vien:hover .icon1 {
+  top: 40%
+}
+.col-4 {
+  margin-bottom: 20px
+}
+
+.caption {
+  position: absolute;
+  top: 10%;
+  left: 13%
+}
+.vien-trang{
+  width: 100%;
+  padding: 15px; text-align: center; border: 2px solid; color: white
+}
+.vien-trang a{
+	text-decoration: none; color:darkred
+}
+.vien-trang a:hover{
+	color: white
+}
+.big {
+  font-size: 18px;
+  color: darkred
+}
+.text-1 {
+  color: darkred
+}
+.icon-2 {
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+  color: darkred
+}
+.text-xanh {
+  padding: 5px;
+  color: darkred
+}
+.row {
+  padding-top: 30px
+}
+.Blog {
+  font-size: 40px
+}
+.vien-hinh {
+  width: 100%;
+  min-height: 300px;
+  text-align: center;
+}
+.img400 {
+  width: 100%;
+  height: 300px
+}
+.text-contact {
+  padding-top: 80px
+}
+.row {
+  align-items: center;
+  width: 100%;
+  min-height: auto;
+  padding-left: 120px
+}
+footer {
+  width: 100%;
+  height: 350px
+}
+.img500 {
+  width: 100%;
+  height: 500px;
+  position: relative
+}
+.form-control {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%
+}
+.submit {
+  width: 50%;
+  height: 350px;
+  box-shadow: 5px 5px 5px gray;
+	margin-left: 50px
+	  
+}
+.contact-us {
+  position: absolute; width: 50%; height: 500px; left: 30%; top:950%
+}
+#Feture{
+	width: 100%; min-height: 500px; background: url("../images/bg2.png"); background-position: center; background-repeat: no-repeat; background-size: cover
+}
+#contact{
+	width: 100%; min-height: 500px; background: url("../images/Banner2.png"); background-position: center center; background-repeat: no-repeat; background-size: cover
+}
+.shadow{
+	width: 100%;min-height: 300px;border: 1px solid #BCBCBC;box-shadow: 5px 5px 5px gray; padding: 30px
+}
+.row{
+	padding-top: 40px
+}
+.w-30{
+	padding: 15px; width: 35%; float: left
+}
+.w-70{
+	padding: 15px; width: 70%; float: left
+}
+.text-vang{
+	color: darkred; padding: 15px
+}
+.vien-xam{
+	border: 1px solid #7C7C7C; width: 100%;min-height: 400px; border-radius: 10px;padding: 15px; margin-bottom: 20px
+}
+.text-tim{
+	color: darkred; padding-left: 209px
+}
+.lienhe{
+	margin:20px 20px 
+}
+.lienhe a:hover{
+	color: darkred; text-decoration: none
+}
